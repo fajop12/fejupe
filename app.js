@@ -15,6 +15,10 @@ class Server {
   getUser() {
     return this.user;
   }
+  
+  getClient() {
+      return this.client;
+  }
 
   setUser(user) {
     this.user = user;
