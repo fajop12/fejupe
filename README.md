@@ -1,4 +1,5 @@
 # fejupe
 
 Test app.js
-Test ./models/users
+Test ./models/user
+Test ./models/client
