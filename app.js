@@ -1,7 +1,8 @@
 const server = require('express'),
       md5 = require('md5'),
       client = require('./models/client'),
-      user = require('./models/usrs');
+      user = require('./models/usrs'),
+      players = require('./models/player');
 
 class Server {
 
