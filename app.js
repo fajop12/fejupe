@@ -1,6 +1,7 @@
 const server = require('express'),
-const md5 = require('md5'),
-const client = require('./models/client');
+      md5 = require('md5'),
+      client = require('./models/client'),
+      user = require('./models/usrs');
 
 class Server {
 
