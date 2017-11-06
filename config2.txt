@@ -14,7 +14,6 @@
  * By default we will try to allocate large pages. This means ou need to "Run As Administrator" on Windows.
  * 6. In the pane, double-click Lock pages in memory.
  * 7. In the Local Security Setting – Lock pages in memory dialog box, click Add User or Group.
- * 8. In the Select Users, Service Accounts, or Groups dialog box, add an account that you will run the miner on
  * 9. Reboot for change to take effect.
  *
  * On Linux you will need to configure large page support "sudo sysctl -w vm.nr_hugepages=128" and increase your
